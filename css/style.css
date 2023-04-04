@@ -1,0 +1,14 @@
+h1 {
+  font-size: 4rem;
+}
+
+ul {
+  list-style: disc;
+  margin: 1rem;
+}
+
+ol {
+  list-style-position: inside;
+  padding: 1rem;
+  list-style: decimal;
+}
