@@ -20,8 +20,8 @@ alert ('Hi, ' + userName + '! Before I can let you in here, get to know me by an
       let secondQ = prompt ('Would I describe myself as a social person? (Y / N)?').toLowerCase();
     console.log(secondQ);
       if (secondQ === 'n' || secondQ === 'no'){
-      console.log('Duh, social situation are scary')
-      } else if (secondQ === 'yes' || secondQ === 'yes'){
+      console.log('Duh, social situations are scary')
+      } else if (secondQ === 'y' || secondQ === 'yes'){
         console.log('I can come across as extroverted, but I am a huge introvert')
       } else {
         console.log('Sorry, pal. You need to answer with a \'Y\' or a \'N\'')
