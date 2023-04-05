@@ -27,10 +27,11 @@ if (secondQ === 'n' || secondQ === 'no') {
   // console.log('Duh, social situations are scary');
   alert('Duh, social situations are scary');
 } else if (secondQ === 'y' || secondQ === 'yes') {
-  // alert('I can come across as extroverted, but I am a huge introvert')
+  // console.log('I can come across as extroverted, but I am a huge introvert');
+  alert('I can come across as extroverted, but I am a huge introvert');
 } else {
   // console.log('Sorry, pal. You need to answer with a \'Y\' or a \'N\'')
-  alert('Sorry, pal. You need to answer with a \'Y\' or a \'N\'')
+  alert('Sorry, pal. You need to answer with a \'Y\' or a \'N\'');
 }
 
 let thirdQ = prompt('Do I own and use a surfboard? (Y / N)?').toLowerCase();
