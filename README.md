@@ -2,18 +2,19 @@
 
 ## About Me
 
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+Software Developer with a background in customer service and aviation project coordination. I am passionate about using coding to create an application that is efficient while also being customer-focused.
 
 ### Author: Tiffani Rice
 
 ### Links and Resources
 
-* [submission PR](http://xyz.com)
-* Any Links you used as reference
+- [Whiteboard](https://www.invisionapp.com/)
+- [CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+- [Color Generator #1](https://coolors.co/)
 
 ### Lighthouse Accessibility Report Score
 
-* Provide a screenshot of your score after running a Lighthouse Accessibility report.
+![Lighthouse Report!](/Lab02_lighthouse.png)
 
 ### Reflections and Comments
 
