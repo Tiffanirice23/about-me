@@ -130,41 +130,44 @@ function ageQ() {
 
 ageQ();
 
+function officeQ(){
+let secondRemaining = 6;
+let officeFavs = ['stanley', 'creed', 'erin', 'gabe'];
+let seventhQ = prompt('Name one of my top 4 favorite U.S. Office characters!').toLowerCase();
+secondRemaining--;
 
-// let secondRemaining = 6;
-// let officeFavs = ['stanley', 'creed', 'erin', 'gabe'];
-// let seventhQ = prompt('Name one of my top 4 favorite U.S. Office characters!').toLowerCase();
-// secondRemaining--;
+let isCorrect = false;
+for (let i = 0; i < officeFavs.length; i++) {
+  let character = officeFavs[i];
+  if (seventhQ === character) {
+    isCorrect = true;
+  }
+}
 
-// let isCorrect = false;
-// for (let i = 0; i < officeFavs.length; i++) {
-//   let character = officeFavs[i];
-//   if (seventhQ === character) {
-//     isCorrect = true;
-//   }
-// }
+while (isCorrect === false && secondRemaining > 0) {
+  alert('Your Answer was incorrect');
+  secondRemaining--;
+  seventhQ = prompt('Name one of my top 4 favorite U.S. Office characters!').toLowerCase();
+  for (let i = 0; i < officeFavs.length; i++) {
+    let character = officeFavs[i];
+    if (seventhQ === character) {
+      isCorrect = true;
+    }
+  }
+}
 
-// while (isCorrect === false && secondRemaining > 0) {
-//   alert('Your Answer was incorrect');
-//   secondRemaining--;
-//   seventhQ = prompt('Name one of my top 4 favorite U.S. Office characters!').toLowerCase();
-//   for (let i = 0; i < officeFavs.length; i++) {
-//     let character = officeFavs[i];
-//     if (seventhQ === character) {
-//       isCorrect = true;
-//     }
-//   }
-// }
+if (isCorrect === true) {
+  correctAnswers.push(seventhQ);
+  alert('You got it right! All possible answers were ' + officeFavs[0] + ', ' + officeFavs[1] + ', ' + officeFavs[2] + ', ' + officeFavs[3]);
+}
 
-// if (isCorrect === true) {
-//   correctAnswers.push(seventhQ);
-//   alert('You got it right! All possible answers were ' + officeFavs[0] + ', ' + officeFavs[1] + ', ' + officeFavs[2] + ', ' + officeFavs[3]);
-// }
+if (isCorrect === false) {
+  alert('Out of attempts. All possible answers were ' + officeFavs[0] + ', ' + officeFavs[1] + ', ' + officeFavs[2] + ', ' + officeFavs[3]);
+}
+}
 
-// if (isCorrect === false) {
-//   alert('Out of attempts. All possible answers were ' + officeFavs[0] + ', ' + officeFavs[1] + ', ' + officeFavs[2] + ', ' + officeFavs[3]);
-// }
+officeQ();
 
-// alert('You got ' + correctAnswers.length + ' answers correct');
+alert('You got ' + correctAnswers.length + ' answers correct');
 
-// alert('Alriiight, ' + userName + '. We\'re buddies now. Come on in!');
+alert('Alriiight, ' + userName + '. We\'re buddies now. Come on in!');
