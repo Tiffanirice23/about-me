@@ -4,10 +4,10 @@ let correctAnswers = [];
 
 alert("WOooW THERE, STRANGER! Where do you think you're going?");
 
-let userName = prompt('Let\'s get acquainted first. What\'s your name?')
+let userName = prompt('Let\'s get acquainted first. What\'s your name?');
 console.log(userName);
 
-alert('Hi, ' + userName + '! Before I can let you in here, get to know me by answering the following questions beforehand:')
+alert('Hi, ' + userName + '! Before I can let you in here, get to know me by answering the following questions beforehand:');
 
 let firstQ = prompt('Do I like spicy food (Y / N)?').toLowerCase();
 console.log(firstQ);
@@ -34,7 +34,7 @@ if (secondQ === 'n' || secondQ === 'no') {
   console.log('I can come across as extroverted, but I am a huge introvert');
   alert('I can come across as extroverted, but I am a huge introvert');
 } else {
-  console.log('Sorry, pal. You need to answer with a \'Y\' or a \'N\'')
+  console.log('Sorry, pal. You need to answer with a \'Y\' or a \'N\'');
   alert('Sorry, pal. You need to answer with a \'Y\' or a \'N\'');
 }
 
@@ -46,17 +46,17 @@ if (thirdQ === 'y' || thirdQ === 'yes') {
   alert('Yep! I own and use a surfboard... Doesn\'t mean I am good at it though lol');
 } else if (thirdQ === 'n' || thirdQ === 'no') {
   console.log('Wronggg. I do own and use a surfboard in Florida.');
-  alert('Wronggg. I do own and use a surfboard in Florida.')
+  alert('Wronggg. I do own and use a surfboard in Florida.');
 } else {
-  console.log('You need to answer with a \'Y\' or a \'N\'')
-  alert('You need to answer with a \'Y\' or a \'N\'')
+  console.log('You need to answer with a \'Y\' or a \'N\'');
+  alert('You need to answer with a \'Y\' or a \'N\'');
 }
 
 
 let fourthQ = prompt('I have two kids (Y / N)?').toLowerCase();
 console.log(fourthQ);
 if (fourthQ === 'y' || fourthQ === 'yes'){
-  console.log('Yep! I have a daughter and a son.')
+  console.log('Yep! I have a daughter and a son.');
   correctAnswers.push(fourthQ);
   alert('Yep! I have a daughter and a son.');
 } else if (fourthQ === 'n' || fourthQ === 'no') {
@@ -96,10 +96,10 @@ while (sixthQ !== 27 && firstRemaining > 0){
     alert("Hey, I'm not that old! Try again.");
   }
   sixthQ = prompt("Try again. How old am I?");
-  sixthQ = parseInt(sixthQ)
+  sixthQ = parseInt(sixthQ);
 }
 
-if (sixthQ == 27){
+if (sixthQ === 27){
   correctAnswers.push(sixthQ);
   alert("That is correct!");
 }
