@@ -18,5 +18,5 @@ Software Developer with a background in customer service and aviation project co
 
 ### Reflections and Comments
 
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+#### Lab03 Reflections
+> In this lab, I added 2 additional user questions with `for` and `while` loops! In one question, I added a "too high" or "two low!" response to incorrect questions, and allowed a max of 4 attempts. On the second question, I added an array of items for the user to guess with 6 total attemps! Lastly, I added a results array that would display the user's overall score! 

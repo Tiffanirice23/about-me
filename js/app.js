@@ -9,7 +9,7 @@ console.log(userName);
 
 alert('Hi, ' + userName + '! Before I can let you in here, get to know me by answering the following questions beforehand:')
 
-let firstQ = prompt('Do I l like spicy food (Y / N)?').toLowerCase();
+let firstQ = prompt('Do I like spicy food (Y / N)?').toLowerCase();
 console.log(firstQ);
 if (firstQ === 'y' || firstQ === 'yes') {
   correctAnswers.push(firstQ);
@@ -74,7 +74,7 @@ if (fifthQ === 'n' || fifthQ === 'no') {
   // console.log('You\'re right! i\'m not interesting enough to be on TV');
   alert('You\'re right! i\'m not interesting or toxic enough to be on TV lol');
 } else if (fifthQ === 'y' || fifthQ === 'yes') {
-  // console.log('Wrong! I am not interesting or outgoing enough');
+  // console.log('Wrong! I've never been on TV');
   alert('Wrong! I am not interesting or outgoing enough');
 } else {
   // console.log('Sorry, buddy. You need to answer with a \'Y\' or a \'N\'');
@@ -134,11 +134,11 @@ while (isCorrect === false && secondRemaining > 0) {
 
 if (isCorrect === true) {
   correctAnswers.push(seventhQ);
-  alert('You got it right!');
+  alert('You got it right! All possible answers were ' + officeFavs[0] + ', ' + officeFavs[1] + ', ' + officeFavs[2] + ', ' + officeFavs[3]);
 }
 
 if (isCorrect === false) {
-  alert('Out of attempts. You got it wrong');
+  alert('Out of attempts. All possible answers were ' + officeFavs[0] + ', ' + officeFavs[1] + ', ' + officeFavs[2] + ', ' + officeFavs[3]);
 }
 
 alert('You got ' + correctAnswers.length + ' answers correct');
