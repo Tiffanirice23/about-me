@@ -9,8 +9,7 @@ console.log(userName);
 
 alert('Hi, ' + userName + '! Before I can let you in here, get to know me by answering the following questions beforehand:');
 
-function spicyFood() {
-
+function spicyQ() {
   let firstQ = prompt('Do I like spicy food (Y / N)?').toLowerCase();
   console.log(firstQ);
   if (firstQ === 'y' || firstQ === 'yes') {
@@ -26,8 +25,9 @@ function spicyFood() {
   }
 }
 
-spicyFood();
+spicyQ();
 
+function socialQ(){
 let secondQ = prompt('Would I describe myself as a social person? (Y / N)?').toLowerCase();
 console.log(secondQ);
 if (secondQ === 'n' || secondQ === 'no') {
@@ -41,6 +41,10 @@ if (secondQ === 'n' || secondQ === 'no') {
   console.log('Sorry, pal. You need to answer with a \'Y\' or a \'N\'');
   alert('Sorry, pal. You need to answer with a \'Y\' or a \'N\'');
 }
+}
+
+socialQ();
+
 
 // let thirdQ = prompt('Do I own and use a surfboard? (Y / N)?').toLowerCase();
 // console.log(thirdQ);
