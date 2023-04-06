@@ -82,50 +82,54 @@ function kidQ() {
 
 kidQ();
 
-function tvQ(){
-let fifthQ = prompt('Have I ever been on TV (Y / N)?').toLowerCase();
-console.log(fifthQ);
-if (fifthQ === 'n' || fifthQ === 'no') {
-  correctAnswers.push(fifthQ);
-  console.log('You\'re right! i\'m not interesting enough to be on TV');
-  alert('You\'re right! i\'m not interesting or toxic enough to be on TV lol');
-} else if (fifthQ === 'y' || fifthQ === 'yes') {
-  console.log('Wrong! I\'ve never been on TV');
-  alert('Wrong! I am not interesting or outgoing enough');
-} else {
-  console.log('Sorry, buddy. You need to answer with a \'Y\' or a \'N\'');
-  alert('You need to answer with a \'Y\' or a \'N\'');
-}
+function tvQ() {
+  let fifthQ = prompt('Have I ever been on TV (Y / N)?').toLowerCase();
+  console.log(fifthQ);
+  if (fifthQ === 'n' || fifthQ === 'no') {
+    correctAnswers.push(fifthQ);
+    console.log('You\'re right! i\'m not interesting enough to be on TV');
+    alert('You\'re right! i\'m not interesting or toxic enough to be on TV lol');
+  } else if (fifthQ === 'y' || fifthQ === 'yes') {
+    console.log('Wrong! I\'ve never been on TV');
+    alert('Wrong! I am not interesting or outgoing enough');
+  } else {
+    console.log('Sorry, buddy. You need to answer with a \'Y\' or a \'N\'');
+    alert('You need to answer with a \'Y\' or a \'N\'');
+  }
 }
 
 tvQ();
 
-
-let firstRemaining = 4;
-let sixthQ = prompt('How old am I?');
-firstRemaining--;
-sixthQ = parseInt(sixthQ);
-
-console.log(typeof sixthQ);
-while (sixthQ !== 27 && firstRemaining > 0) {
+function ageQ() {
+  let firstRemaining = 4;
+  let sixthQ = prompt('How old am I?');
   firstRemaining--;
-  if (sixthQ < 27) {
-    alert("I'm older than that! Try again.");
-  }
-  if (sixthQ > 27) {
-    alert("Hey, I'm not that old! Try again.");
-  }
-  sixthQ = prompt("Try again. How old am I?");
   sixthQ = parseInt(sixthQ);
+
+  console.log(typeof sixthQ);
+  while (sixthQ !== 27 && firstRemaining > 0) {
+    firstRemaining--;
+    if (sixthQ < 27) {
+      alert("I'm older than that! Try again.");
+    }
+    if (sixthQ > 27) {
+      alert("Hey, I'm not that old! Try again.");
+    }
+    sixthQ = prompt("Try again. How old am I?");
+    sixthQ = parseInt(sixthQ);
+  }
+
+  if (sixthQ === 27) {
+    correctAnswers.push(sixthQ);
+    alert("That is correct!");
+  }
+  if (firstRemaining === 0 && sixthQ !== 27) {
+    alert('The answer was 27');
+  }
 }
 
-// if (sixthQ === 27) {
-//   correctAnswers.push(sixthQ);
-//   alert("That is correct!");
-// }
-// if (firstRemaining === 0 && sixthQ !== 27) {
-//   alert('The answer was 27');
-// }
+ageQ();
+
 
 // let secondRemaining = 6;
 // let officeFavs = ['stanley', 'creed', 'erin', 'gabe'];
