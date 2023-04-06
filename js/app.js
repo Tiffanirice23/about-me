@@ -63,35 +63,39 @@ function surfQ() {
 
 surfQ();
 
+function kidQ() {
+
+  let fourthQ = prompt('I have two kids (Y / N)?').toLowerCase();
+  console.log(fourthQ);
+  if (fourthQ === 'y' || fourthQ === 'yes') {
+    console.log('Yep! I have a daughter and a son.');
+    correctAnswers.push(fourthQ);
+    alert('Yep! I have a daughter and a son.');
+  } else if (fourthQ === 'n' || fourthQ === 'no') {
+    console.log('Nope, I have 2 children!');
+    alert('Nope, I have 2 children!');
+  } else {
+    console.log('You need a \'Y\' or a \'N\'');
+    alert('You need a \'Y\' or a \'N\'');
+  }
+}
+
+kidQ();
 
 
-// let fourthQ = prompt('I have two kids (Y / N)?').toLowerCase();
-// console.log(fourthQ);
-// if (fourthQ === 'y' || fourthQ === 'yes') {
-//   console.log('Yep! I have a daughter and a son.');
-//   correctAnswers.push(fourthQ);
-//   alert('Yep! I have a daughter and a son.');
-// } else if (fourthQ === 'n' || fourthQ === 'no') {
-//   console.log('Nope, I have 2 children!');
-//   alert('Nope, I have 2 children!');
-// } else {
-//   console.log('You need a \'Y\' or a \'N\'');
-//   alert('You need a \'Y\' or a \'N\'');
-// }
-
-// let fifthQ = prompt('Have I ever been on TV (Y / N)?').toLowerCase();
-// console.log(fifthQ);
-// if (fifthQ === 'n' || fifthQ === 'no') {
-//   correctAnswers.push(fifthQ);
-//   console.log('You\'re right! i\'m not interesting enough to be on TV');
-//   alert('You\'re right! i\'m not interesting or toxic enough to be on TV lol');
-// } else if (fifthQ === 'y' || fifthQ === 'yes') {
-//   console.log('Wrong! I\'ve never been on TV');
-//   alert('Wrong! I am not interesting or outgoing enough');
-// } else {
-//   console.log('Sorry, buddy. You need to answer with a \'Y\' or a \'N\'');
-//   alert('You need to answer with a \'Y\' or a \'N\'');
-// }
+let fifthQ = prompt('Have I ever been on TV (Y / N)?').toLowerCase();
+console.log(fifthQ);
+if (fifthQ === 'n' || fifthQ === 'no') {
+  correctAnswers.push(fifthQ);
+  console.log('You\'re right! i\'m not interesting enough to be on TV');
+  alert('You\'re right! i\'m not interesting or toxic enough to be on TV lol');
+} else if (fifthQ === 'y' || fifthQ === 'yes') {
+  console.log('Wrong! I\'ve never been on TV');
+  alert('Wrong! I am not interesting or outgoing enough');
+} else {
+  console.log('Sorry, buddy. You need to answer with a \'Y\' or a \'N\'');
+  alert('You need to answer with a \'Y\' or a \'N\'');
+}
 
 // let firstRemaining = 4;
 // let sixthQ = prompt('How old am I?');
