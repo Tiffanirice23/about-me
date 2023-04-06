@@ -27,38 +27,42 @@ function spicyQ() {
 
 spicyQ();
 
-function socialQ(){
-let secondQ = prompt('Would I describe myself as a social person? (Y / N)?').toLowerCase();
-console.log(secondQ);
-if (secondQ === 'n' || secondQ === 'no') {
-  correctAnswers.push(secondQ);
-  console.log('Duh, social situations are scary');
-  alert('Duh, social situations are scary');
-} else if (secondQ === 'y' || secondQ === 'yes') {
-  console.log('I can come across as extroverted, but I am a huge introvert');
-  alert('I can come across as extroverted, but I am a huge introvert');
-} else {
-  console.log('Sorry, pal. You need to answer with a \'Y\' or a \'N\'');
-  alert('Sorry, pal. You need to answer with a \'Y\' or a \'N\'');
-}
+function socialQ() {
+  let secondQ = prompt('Would I describe myself as a social person? (Y / N)?').toLowerCase();
+  console.log(secondQ);
+  if (secondQ === 'n' || secondQ === 'no') {
+    correctAnswers.push(secondQ);
+    console.log('Duh, social situations are scary');
+    alert('Duh, social situations are scary');
+  } else if (secondQ === 'y' || secondQ === 'yes') {
+    console.log('I can come across as extroverted, but I am a huge introvert');
+    alert('I can come across as extroverted, but I am a huge introvert');
+  } else {
+    console.log('Sorry, pal. You need to answer with a \'Y\' or a \'N\'');
+    alert('Sorry, pal. You need to answer with a \'Y\' or a \'N\'');
+  }
 }
 
 socialQ();
 
+function surfQ() {
+  let thirdQ = prompt('Do I own and use a surfboard? (Y / N)?').toLowerCase();
+  console.log(thirdQ);
+  if (thirdQ === 'y' || thirdQ === 'yes') {
+    correctAnswers.push(thirdQ);
+    console.log('Yep! I own and use a surfboard... Doesn\'t mean I am good at it though lol');
+    alert('Yep! I own and use a surfboard... Doesn\'t mean I am good at it though lol');
+  } else if (thirdQ === 'n' || thirdQ === 'no') {
+    console.log('Wronggg. I do own and use a surfboard in Florida.');
+    alert('Wronggg. I do own and use a surfboard in Florida.');
+  } else {
+    console.log('You need to answer with a \'Y\' or a \'N\'');
+    alert('You need to answer with a \'Y\' or a \'N\'');
+  }
+}
 
-// let thirdQ = prompt('Do I own and use a surfboard? (Y / N)?').toLowerCase();
-// console.log(thirdQ);
-// if (thirdQ === 'y' || thirdQ === 'yes') {
-//   correctAnswers.push(thirdQ);
-//   console.log('Yep! I own and use a surfboard... Doesn\'t mean I am good at it though lol');
-//   alert('Yep! I own and use a surfboard... Doesn\'t mean I am good at it though lol');
-// } else if (thirdQ === 'n' || thirdQ === 'no') {
-//   console.log('Wronggg. I do own and use a surfboard in Florida.');
-//   alert('Wronggg. I do own and use a surfboard in Florida.');
-// } else {
-//   console.log('You need to answer with a \'Y\' or a \'N\'');
-//   alert('You need to answer with a \'Y\' or a \'N\'');
-// }
+surfQ();
+
 
 
 // let fourthQ = prompt('I have two kids (Y / N)?').toLowerCase();
