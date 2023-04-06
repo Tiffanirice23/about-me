@@ -13,8 +13,11 @@ Software Developer with a background in customer service and aviation project co
 - [Color Generator #1](https://coolors.co/)
 
 ### Lighthouse Accessibility Report Score
+##### Lab02
+![Lighthouse Report!](/img/Lab02_lighthouse.png)
 
-![Lighthouse Report!](/Lab02_lighthouse.png)
+##### Lab03
+![Lighthouse Report#2](/img/lab03_lighthouse.png)
 
 ### Reflections and Comments
 
