@@ -13,11 +13,11 @@ h1 {
 
 body{
   margin: 25px;
-  background-image: url('../img/background-img.jpeg');
   height: 70%;
   position: relative;
   color: #1B1F3B;
   background-color: #3a0ca3;
+  background-image: url('../img/background-img.jpeg');
 }
 
 section{
