@@ -6,6 +6,11 @@ Software Developer with a background in customer service and aviation project co
 
 ### Author: Tiffani Rice
 
+#### Lab05
+
+Dan was driver
+Tiffani was navigator
+
 ### Links and Resources
 
 - [Whiteboard](https://www.invisionapp.com/)
@@ -18,6 +23,7 @@ Software Developer with a background in customer service and aviation project co
 
 ##### Lab03
 ![Lighthouse Report#2](/img/lab03_lighthouse.png)
+
 
 ### Reflections and Comments
 
