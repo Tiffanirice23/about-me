@@ -6,10 +6,9 @@ Software Developer with a background in customer service and aviation project co
 
 ### Author: Tiffani Rice
 
-#### Lab05
-
-Dan was driver
-Tiffani was navigator
+Lab05
+Dan was the driver
+Tiffani was the navigator
 
 ### Links and Resources
 
