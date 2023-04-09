@@ -1,33 +1,47 @@
-
+* {
+  box-sizing:border-box;
+}
 a {
-  background-color: black;
+  background-color: #d6d7dc;
   border: 2px solid #6930c3;
 }
-  
+
+a:hover {
+  background-color: plum;
+}
+
 h1 {
   font-size: 4rem;
-  background-color: #be95c4;
+  background-color: #888DA7;
   border: 2px solid #6930c3;
   margin-bottom: 10px;
+  letter-spacing: 1rem;
+  text-align: center;
 }
 
-body{
+body {
   margin: 25px;
   height: 70%;
   position: relative;
   color: #1B1F3B;
-  background-color: #3a0ca3;
-  background-image: url('../img/background-img.jpeg');
+  background-color: #888DA7;
+  background-image: url(/img/background-img.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-section{
+section {
   margin: 25px;
-  width: 60%;
+  /* width: 60%; */
+  background-color: #888DA7;
 }
 
+div {
+  display: inline-block;
+}
 main {
   height: 100%;
-  width: 80%;
+  width: 70%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -35,37 +49,62 @@ main {
 ul {
   list-style-position: inside;
   padding: 1rem;
-  list-style: disc;
-  margin: 1rem; 
+  list-style: square;
+  margin: 1rem;
+  /* border: 1px solid black; */
 }
 
-ol {
-  padding: 1rem;
-  margin: 1rem; 
-}
 
 h3 {
   margin: 1rem;
   font-weight: bold;
+  text-align: center;
+
 }
 
 img {
-  border-radius: 50%;
-  width: 40%;
-  height: 40%;
+  border-radius: 10%;
+  width: 50%;
+  height: 45%;
 }
 
 #leftside {
   border: 2px solid #6930c3;
-  background-color: #be95c4;
+  background-color: #888DA7;
   margin-bottom: 10px;
+  margin-left: 4%;
+  margin-right: 1.5%;
 }
 
 #rightside {
   border: 2px solid #6930c3;
-  background-color: #be95c4;
+  background-color: #888DA7;
+}
+
+#leftside, #rightside {
+  display: inline-block;
+  vertical-align: top;
+  height: 500px;
+  width: 45%;
 }
 
 footer {
   text-align: right;
+  background-color: #888DA7;
+  padding: 20px;
+  border: 2px solid #6930c3;
+
+}
+
+ol {
+  padding-left: 25px;
+}
+
+#imgSection {
+  text-align: center;
+}
+
+#workExperience {
+  padding: 20px;
+  border: 2px solid #6930c3;
 }
