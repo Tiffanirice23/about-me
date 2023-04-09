@@ -24,10 +24,7 @@ body {
   height: 70%;
   position: relative;
   color: #1B1F3B;
-  background-color: #888DA7;
-  background-image: url(/img/background-img.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #460e7a;
 }
 
 section {
@@ -107,4 +104,10 @@ ol {
 #workExperience {
   padding: 20px;
   border: 2px solid #6930c3;
+}
+
+body {
+  background-image: url(/img/background-img.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
