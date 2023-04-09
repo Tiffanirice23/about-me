@@ -1,4 +1,4 @@
-# LAB - 02
+# LAB WORKSPACE
 
 ## About Me
 
@@ -23,7 +23,7 @@ Tiffani was the navigator
 ##### Lab03
 ![Lighthouse Report#2](/img/lab03_lighthouse.png)
 
-##### Lab03
+##### Lab05b
 ![Lab05b](/img/lab05b-%20ss.png)
 ### Reflections and Comments
 
