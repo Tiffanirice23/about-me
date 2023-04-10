@@ -1,6 +1,7 @@
 * {
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
+
 a {
   background-color: #d6d7dc;
   border: 2px solid #6930c3;
@@ -25,7 +26,11 @@ body {
   position: relative;
   color: #1B1F3B;
   background-color: #460e7a;
+  background-image: url(/img/background-img.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 
 section {
   margin: 25px;
@@ -36,6 +41,7 @@ section {
 div {
   display: inline-block;
 }
+
 main {
   height: 100%;
   width: 70%;
@@ -78,7 +84,8 @@ img {
   background-color: #888DA7;
 }
 
-#leftside, #rightside {
+#leftside,
+#rightside {
   display: inline-block;
   vertical-align: top;
   height: 500px;
@@ -104,10 +111,4 @@ ol {
 #workExperience {
   padding: 20px;
   border: 2px solid #6930c3;
-}
-
-body {
-  background-image: url(/img/background-img.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
