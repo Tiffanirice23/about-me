@@ -110,12 +110,12 @@ function ageQ() {
   while (sixthQ !== 27 && firstRemaining > 0) {
     firstRemaining--;
     if (sixthQ < 27) {
-      alert("I'm older than that! Try again.");
+      alert(`Nope, I'm older than that! Try again. You have ${firstRemaining} attemps remaining!`);
     }
     if (sixthQ > 27) {
-      alert("Hey, I'm not that old! Try again.");
+      alert(`Hey, I'm not that old! Try again. You have ${firstRemaining} attemps remaining!`);
     }
-    sixthQ = prompt("Try again. How old am I?");
+    sixthQ = prompt("How old am I?");
     sixthQ = parseInt(sixthQ);
   }
 
@@ -132,7 +132,7 @@ ageQ();
 
 function officeQ() {
   let secondRemaining = 6;
-  let officeFavs = ['stanley', 'creed', 'erin', 'gabe'];
+  let officeFavs = ['Stanley', 'Creed', 'Erin', 'Gabe'];
   let seventhQ = prompt('Name one of my top 4 favorite U.S. Office characters!').toLowerCase();
   secondRemaining--;
 
@@ -145,9 +145,9 @@ function officeQ() {
   }
 
   while (isCorrect === false && secondRemaining > 0) {
-    alert('Your Answer was incorrect');
+    alert(`Incorrect! You have ${secondRemaining} attempts remaining! *Hint: all of my favorites are secondary characters!`);
     secondRemaining--;
-    seventhQ = prompt('Name one of my top 4 favorite U.S. Office characters!').toLowerCase();
+    seventhQ = prompt('Try again. Name one of my top 4 favorite U.S. Office characters!').toLowerCase();
     for (let i = 0; i < officeFavs.length; i++) {
       let character = officeFavs[i];
       if (seventhQ === character) {
