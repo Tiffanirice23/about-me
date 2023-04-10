@@ -20,16 +20,6 @@ h1 {
   text-align: center;
 }
 
-body {
-  margin: 25px;
-  height: 70%;
-  position: relative;
-  color: #1B1F3B;
-  background-color: #5e2296;
-  background-image: url(/img/background-img.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 
 section {
@@ -62,7 +52,7 @@ h3 {
   margin: 1rem;
   font-weight: bold;
   text-align: center;
-
+  
 }
 
 img {
@@ -97,7 +87,7 @@ footer {
   background-color: #888DA7;
   padding: 20px;
   border: 2px solid #6930c3;
-
+  
 }
 
 ol {
@@ -111,4 +101,15 @@ ol {
 #workExperience {
   padding: 20px;
   border: 2px solid #6930c3;
+}
+
+body {
+  margin: 25px;
+  height: 70%;
+  position: relative;
+  color: #1B1F3B;
+  background-color: #5e2296;
+  background-image: url(/img/background-img.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
