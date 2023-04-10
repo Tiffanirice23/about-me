@@ -109,7 +109,7 @@ body {
   position: relative;
   color: #1B1F3B;
   background-color: #5e2296;
-  background-image: url(/img/background-img.jpeg);
+  background-image: url(../img/background-img.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
